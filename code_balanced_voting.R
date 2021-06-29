@@ -1021,7 +1021,7 @@ MLP<-function(M){
 
 
 K_positive_1<-function(M){
-  ps<-601:999/1000
+  ps<-601:999/10000
   Pr<-sapply(1:M, P)
   PY<-sapply(1:M, Prob_Y)
   theta<-1:M
